@@ -6,8 +6,11 @@ import headShot from './img/headShot.png'
 export default class Navbar extends Component {
   render() {
     return (
-      <div className='banner'>
-        <img src={headShot} alt='headshot'/>
+      <div className='display'>
+        <div className='banner'>
+          <img src={headShot} alt='headshot'/>
+          <div className='bottom-text'><h1>D.McHugh</h1></div>
+        </div>
          <div className='navbar'>
             <Link to='/' alt='home'>
               <button>HOME</button>
@@ -15,8 +18,8 @@ export default class Navbar extends Component {
             <Link to='/project' alt='project'>
               <button>PROJECTS</button>
             </Link>
-            <Link to='/work' alt='work'>
-              <button>WORK</button>
+            <Link to='/resume' alt='resume'>
+              <button>RESUME</button>
             </Link>
             <Link to='/blog' alt='blog'>
               <button>BLOG</button>

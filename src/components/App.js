@@ -6,7 +6,7 @@ import Default from './Default'
 import Home from './home/Home'
 import Navbar from './navbar/Navbar'
 import Project from './project/Project'
-import Work from './work/Work'
+import Resume from './resume/Resume'
 
 class App extends Component {
   render() {
@@ -17,7 +17,7 @@ class App extends Component {
           <Route exact path='/' component={Home} />
           <Route path='/blog' component={Blog} />
           <Route path='/project' component={Project} />
-          <Route path='/work' component={Work} />
+          <Route path='/resume' component={Resume} />
           <Route component={Default} />
         </Switch>
       </div>

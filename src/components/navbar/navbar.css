@@ -1,6 +1,17 @@
-.banner{
-    padding: none;
+.display{
     text-align: center;
+}
+.banner{
+    position: relative;
+}
+.bottom-text{
+    position: absolute;
+    bottom: -11%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    text-shadow: 0 0 3px white;
 }
 .navbar{
     display: grid;
