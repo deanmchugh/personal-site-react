@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Switch, Route} from 'react-router-dom'
+import './app.css'
 import Blog from './blog/Blog'
 import Default from './Default'
 import Home from './home/Home'
@@ -10,7 +11,7 @@ import Work from './work/Work'
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className='display'> 
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -19,7 +20,7 @@ class App extends Component {
           <Route path='/work' component={Work} />
           <Route component={Default} />
         </Switch>
-      </React.Fragment>
+      </div>
     );
   }
 }

@@ -1,10 +1,24 @@
+.banner{
+    padding: none;
+    text-align: center;
+}
 .navbar{
     display: grid;
     grid-template-columns: 1fr auto auto auto 1fr;
     grid-gap: 5px;
+    justify-items: center;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
 }
 button{
     border: none;
     background-color: white;
     font-size: 1.5rem;
+}
+button:hover{
+    color: red;
+}
+img{
+    border-radius: 50%;
+    max-width: 100%;
 }
