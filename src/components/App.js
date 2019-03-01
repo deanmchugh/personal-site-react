@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Switch, Route} from 'react-router-dom'
 import './app.css'
 import Blog from './blog/Blog'
+import Contacts from './contacts/Contacts'
 import Default from './Default'
 import Home from './home/Home'
 import Navbar from './navbar/Navbar'
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path='/resume' component={Resume} />
           <Route component={Default} />
         </Switch>
+        <Contacts />
       </div>
     );
   }
