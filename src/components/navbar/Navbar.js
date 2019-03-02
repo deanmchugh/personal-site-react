@@ -6,7 +6,7 @@ import headShot from './img/headShot.png'
 export default class Navbar extends Component {
   render() {
     return (
-      <div className='display'>
+      <div>
         <div className='banner'>
           <img src={headShot} alt='headshot'/>
           <div className='bottom-text'><h1>D.McHugh</h1></div>
