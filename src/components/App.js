@@ -6,7 +6,7 @@ import Contacts from './contacts/Contacts'
 import Default from './Default'
 import Home from './home/Home'
 import Navbar from './navbar/Navbar'
-import Project from './project/Project'
+import Portfolio from './portfolio/Portfolio'
 import Resume from './resume/Resume'
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/blog' component={Blog} />
-          <Route path='/project' component={Project} />
+          <Route path='/portfolio' component={Portfolio} />
           <Route path='/resume' component={Resume} />
           <Route component={Default} />
         </Switch>

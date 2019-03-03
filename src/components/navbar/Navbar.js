@@ -15,8 +15,8 @@ export default class Navbar extends Component {
             <Link to='/' alt='home'>
               <button>HOME</button>
             </Link>
-            <Link to='/project' alt='project'>
-              <button>PROJECTS</button>
+            <Link to='/portfolio' alt='protfolio'>
+              <button>PORTFOLIO</button>
             </Link>
             <Link to='/resume' alt='resume'>
               <button>RESUME</button>

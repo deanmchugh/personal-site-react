@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProjectPost from './model/ProjectPost'
+import ProjectPost from './model/PortfolioPost'
 import projects from './data/projects'
 
 export default class Project extends Component {

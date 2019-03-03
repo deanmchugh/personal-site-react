@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './projectPost.css'
+import './portfolioPost.css'
 
 export default class ProjectPost extends Component {
   render() {
