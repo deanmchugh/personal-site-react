@@ -1,0 +1,53 @@
+.job-title{
+    grid-area: job-title;
+}
+.job-company{
+    grid-area: company;
+}
+.job-time-period{
+    grid-area: job-time;
+}
+.job-description{
+    grid-area: job-description;
+}
+.job-skills{
+    grid-area: job-skills;
+}
+.job-post{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'job-title job-description'
+        'company job-description'
+        'job-time job-skills';
+    grid-gap: 10px;
+    border-bottom: 3px black double;
+}
+
+.study-school{
+    grid-area: school;
+}
+.study-degree{
+    grid-area: degree;
+}
+.study-timePeriod{
+    grid-area: study-time;
+}
+.study-description{
+    grid-area: study-description;
+}
+.study-skills{
+    grid-area: study-skills;
+}
+.study-post{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'school study-description'
+        'degree study-description'
+        'study-time study-skills';
+    grid-gap: 10px;
+    border-bottom: 3px black double;
+}
