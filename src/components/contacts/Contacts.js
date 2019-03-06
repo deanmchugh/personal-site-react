@@ -9,7 +9,7 @@ export default class Contacts extends Component {
     return (
       <footer className='footer'>
         <div></div>
-        <div>
+        <div className='contacts-display'>
           <h2>CONTACTS</h2>
           <h4>PHONE: 0457998366</h4>
           <a href="mailto:dean.mchugh1988@gmail.com">

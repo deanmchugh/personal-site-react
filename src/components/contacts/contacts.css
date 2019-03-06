@@ -1,3 +1,6 @@
+.contacts-display{
+    padding: 10px;
+}
 .footer{
     display: grid;
     grid-template-rows: 1fr 1fr;

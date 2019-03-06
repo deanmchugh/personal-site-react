@@ -5,7 +5,15 @@
     --gray: #c6dabf;
     --eggshell: #f3e9d2;
 }
-body{
+*{
     text-align: center;
     margin: 0;
+    padding: 0;
+}
+::before,
+::after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration-line: none;
 }

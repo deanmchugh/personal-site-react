@@ -1,10 +1,11 @@
 .banner{
     padding-top: 5px;
+    padding-bottom: 20px;
     position: relative;
 }
 .bottom-text{
     position: absolute;
-    bottom: -11%;
+    bottom: 2%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Dancing Script', cursive;
