@@ -13,7 +13,7 @@ export default class Navbar extends Component {
         </div>
          <div className='navbar'>
             <Link to='/' alt='home'>
-              <button>HOME</button>
+              <button>BIO</button>
             </Link>
             <Link to='/portfolio' alt='protfolio'>
               <button>PORTFOLIO</button>

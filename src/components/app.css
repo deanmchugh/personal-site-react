@@ -1,6 +1,11 @@
+:root{
+    --midnight-green: #114B5F;
+    --emerald: #1a936f;
+    --light-green: #88d498;
+    --gray: #c6dabf;
+    --eggshell: #f3e9d2;
+}
 body{
-    max-width: 60%;
-    margin: auto;
-    padding: 10px;
     text-align: center;
+    margin: 0;
 }
