@@ -4,7 +4,7 @@ import './resumePost.css'
 export default class JobPost extends Component {
   render() {
     return (
-      <div className='resume-display'>
+      <div className='resume-card-display'>
         <div className='job-post'>
           <h2 className='job-title' style={{display: !this.props.title && "none"}}>{this.props.title}</h2>
           <h3 className='job-company' style={{display: !this.props.company && "none"}}>{this.props.company}</h3>
@@ -13,7 +13,6 @@ export default class JobPost extends Component {
           <p className='job-skills' style={{display: !this.props.skills && "none"}}>Skills: {this.props.skills}</p>
         </div>
       </div>
- 
     )
   }
 }

@@ -11,9 +11,9 @@ export default class Project extends Component {
       repository={project.repository}/>)
 
     return (
-      <div>
+      <body>
         {projectComponent}
-      </div>
+      </body>
     )
   }
 }

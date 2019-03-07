@@ -7,11 +7,11 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <div className='banner'>
+        <header className='banner'>
           <img src={headShot} alt='headshot'/>
           <div className='bottom-text'><h1>D.McHugh</h1></div>
-        </div>
-         <div className='navbar'>
+        </header>
+         <nav className='navbar'>
             <Link to='/' alt='home'>
               <button>BIO</button>
             </Link>
@@ -21,7 +21,7 @@ export default class Navbar extends Component {
             <Link to='/resume' alt='resume'>
               <button>RESUME</button>
             </Link>
-          </div>
+          </nav>
       </div>   
     )
   }

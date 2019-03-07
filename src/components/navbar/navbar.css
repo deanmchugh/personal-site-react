@@ -10,12 +10,13 @@
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
+    font-size: 6vmin;
     text-shadow: 0 0 3px white;
 }
 .navbar{
     padding: 2px;
-    max-width: 50%;
+    width: 80vmin;
+    overflow: hidden;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

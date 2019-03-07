@@ -4,7 +4,9 @@
 }
 .message{
     text-align: center;
-    max-width: 60%;
+    width: 60%;
     margin: auto;
     font-weight: normal;
+    font-size: 4vmin;
+    overflow: hidden;
 }

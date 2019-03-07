@@ -20,6 +20,9 @@ body{
 a{
     color: red;
 }
+a:hover{
+    font-weight: bold;
+}
 button{
     border: none;
     background-color: white;
@@ -28,11 +31,13 @@ button{
 }
 button:hover{
     color: red;
+    font-weight: bold;
 }
 img{
     border-radius: 50%;
+    width: 40vmin;
     max-width: 100%;
 }
 ul{
-    margin-left: 15px;
+    margin-left: 30px;
 }

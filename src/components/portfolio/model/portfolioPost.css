@@ -1,6 +1,6 @@
 .project-display{
     background-color: linen;
-    padding: 40px;
+    padding: 5vmin;
 }
 .project-title{
     grid-area: title;
@@ -16,9 +16,12 @@
     grid-area: repository;
 }
 .project-post{
-    max-width: 75%;
+    width: 80vmin;
+    font-size: 3vmin;
     margin: auto;
+    overflow: hidden;
     display: grid;
+    justify-items: left;
     grid-gap: 10px;
     grid-template-columns: 30% 70%;
     grid-template-rows: auto auto auto;

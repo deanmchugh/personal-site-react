@@ -4,7 +4,7 @@ import './home.css'
 export default class Home extends Component {
   render() {
     return (
-      <div className='home-display'>
+      <body className='home-display'>
         <h2 className='message'>
           I am a Brisbane based software developer currently majoring in 
           Computer Science with minors in Intelligent Systems and Mobile Applications
@@ -13,7 +13,7 @@ export default class Home extends Component {
           positive change. With a combining of my background in the
           military and this education I will be a team player and innovator.
         </h2>
-      </div>
+      </body>
     )
   }
 }

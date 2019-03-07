@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import JobPost from './model/JobPost'
 import StudyPost from './model/StudyPost'
 import {experienceData,educationData} from './data/experience'
+import './model/resumePost.css'
 
 export default class Resume extends Component {
   render() {
@@ -26,10 +27,12 @@ export default class Resume extends Component {
           <ul><li>{skillList}</li></ul>)}/>)
 
     return (
-      <div>
+      <body className='resume-display'>
+        <h2>Employment</h2>
         {experienceComponent}
+        <h2>Education</h2>
         {educationComponent}
-      </div>
+      </body>
     )
   }
 }

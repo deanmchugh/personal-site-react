@@ -4,7 +4,7 @@ import './resumePost.css'
 export default class StudyPost extends Component {
   render() {
     return (
-      <div className='resume-display'>
+      <div className='resume-card-display'>
          <div className='study-post'>
           <h2 className='study-school' style={{display: !this.props.school && "none"}}>{this.props.school}</h2>
           <h3 className='study-degree' style={{display: !this.props.degree && "none"}}>{this.props.degree}</h3>
