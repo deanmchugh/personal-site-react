@@ -6,7 +6,6 @@
     --eggshell: #f3e9d2;
 }
 *{
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +15,7 @@
 }
 body{
     font-family: 'Inconsolata', monospace;
+    font-size: 20px;
 }
 a{
     color: red;
@@ -32,4 +32,7 @@ button:hover{
 img{
     border-radius: 50%;
     max-width: 100%;
+}
+ul{
+    margin-left: 15px;
 }

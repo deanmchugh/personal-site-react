@@ -2,6 +2,7 @@
     padding-top: 5px;
     padding-bottom: 20px;
     position: relative;
+    text-align: center;
 }
 .bottom-text{
     position: absolute;
@@ -14,10 +15,10 @@
 }
 .navbar{
     padding: 2px;
-    max-width: 60%;
+    max-width: 50%;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
     justify-items: center;
     border-top: solid black 3px;

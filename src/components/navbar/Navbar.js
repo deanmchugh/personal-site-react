@@ -21,9 +21,6 @@ export default class Navbar extends Component {
             <Link to='/resume' alt='resume'>
               <button>RESUME</button>
             </Link>
-            <Link to='/blog' alt='blog'>
-              <button>BLOG</button>
-            </Link>
           </div>
       </div>   
     )

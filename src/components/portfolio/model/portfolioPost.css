@@ -16,7 +16,7 @@
     grid-area: repository;
 }
 .project-post{
-    max-width: 60%;
+    max-width: 75%;
     margin: auto;
     display: grid;
     grid-gap: 10px;
