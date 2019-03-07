@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <div className='home-display'>
         <h3 className='message'>
-          I am a brisbane based software developer currently majoring in 
+          I am a Brisbane based software developer currently majoring in 
           Computer Science with minors in Intelligent Systems and Mobile Applications
           at Queensland University of Technology.
           This is an industry that I want to be a part of to make a

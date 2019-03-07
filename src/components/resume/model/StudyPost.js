@@ -10,7 +10,7 @@ export default class StudyPost extends Component {
           <h3 className='study-degree' style={{display: !this.props.degree && "none"}}>{this.props.degree}</h3>
           <h4 className='study-timePeriod' style={{display: !this.props.timePeriod && "none"}}>{this.props.timePeriod}</h4>
           <p className='study-description' style={{display: !this.props.description && "none"}}>{this.props.description}</p>
-          <ul className='study-skills' style={{display: !this.props.skills && "none"}}>{this.props.skills}</ul>
+          <p className='study-skills' style={{display: !this.props.skills && "none"}}>Skills: {this.props.skills}</p>
         </div>
       </div>
     )
