@@ -28,6 +28,7 @@
     width: 80vmin;
     font-size: 3vmin;
     overflow: hidden;
+    margin: auto;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 30% 70%;

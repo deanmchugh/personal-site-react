@@ -1,9 +1,9 @@
 .contacts-display{
     text-align: center;
     padding: 10px;
-    line-height: 35px;
 }
 .footer{
     display: grid;
+    font-size: 4vmin;
     grid-template-rows: 1fr 1fr;
 }
