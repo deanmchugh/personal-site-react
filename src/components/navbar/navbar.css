@@ -1,21 +1,20 @@
 .banner{
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding: 10px 0 10px 0;
     position: relative;
     text-align: center;
 }
+.headShot{
+    border-radius: 50%;
+}
 .bottom-text{
     position: absolute;
-    bottom: 2%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Dancing Script', cursive;
-    font-size: 6vmin;
     text-shadow: 0 0 3px white;
 }
 .navbar{
-    padding: 2px;
-    width: 80vmin;
+    padding: 2px;  
     overflow: hidden;
     margin: auto;
     display: grid;

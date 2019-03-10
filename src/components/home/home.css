@@ -1,12 +1,9 @@
 .home-display{
     background-color: linen;
-    padding: 40px;
 }
 .message{
     text-align: center;
-    width: 80vmin;
     margin: auto;
     font-weight: normal;
-    font-size: 4vmin;
     overflow: hidden;
 }

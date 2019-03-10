@@ -1,10 +1,9 @@
 .resume-display{
+    padding-top: 20px;
     text-align: center;
     background-color: linen;
-    padding: 4.5vmin;
 }
 .resume-card-display{
-    padding: 4.5vmin;
     text-align: left;
 }
 .job-title{
@@ -25,12 +24,9 @@
     grid-area: job-skills;
 }
 .job-post{
-    width: 80vmin;
-    font-size: 3vmin;
     overflow: hidden;
     margin: auto;
     display: grid;
-    grid-gap: 10px;
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
     grid-template-areas:
@@ -59,12 +55,9 @@
     grid-area: study-skills;
 }
 .study-post{
-    width: 80vmin;
-    font-size: 3vmin;
     margin: auto;
     overflow: hidden;
     display: grid;
-    grid-gap: 10px;
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
     grid-template-areas:
