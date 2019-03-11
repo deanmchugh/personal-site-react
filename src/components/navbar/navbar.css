@@ -18,9 +18,8 @@
     overflow: hidden;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
     justify-items: center;
-    border-top: solid black 3px;
-    border-bottom: solid black 3px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
 }

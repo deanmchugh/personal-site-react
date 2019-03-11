@@ -7,7 +7,7 @@
     box-sizing: inherit;
 }
 html{
-    line-height: 20px;
+    line-height: 23px;
 }
 body{
     font-family: 'Inconsolata', monospace;
@@ -33,91 +33,77 @@ ul{
     margin-left: 30px;
 }
 /*sizings*/
-@media (min-width: 1281px){
+@media (min-width: 1025px){
     .headShot{max-width: 100%}
     .bottom-text{
-        bottom: 1%;
+        bottom: 13%;
         font-size: 2.5rem}
-    .navbar{width: 800px}
-    .home-display{padding: 40px}
-    .message{font-size: 1.5rem;
-        max-width: 800px;}
-    .project-display{padding: 20px}
-    .project-post{font-size: 1rem;
-        max-width: 900px}
-    .resume-card-display{padding: 20px}
-    .job-post{font-size: 1rem;
-        max-width: 900px}
-    .study-post{font-size: 1rem;
-        max-width: 900px}
-}
-@media (min-width: 1025px) and (max-width: 1280px){
-    .headShot{max-width: 100%}
-    .bottom-text{
-        bottom: 1%;
-        font-size: 4vmin}
-    .navbar{width: 80vmin}
-    .home-display{padding: 30px}
-    .message{font-size: 2vmin}
-    .project-display{padding: 20px}
-    .project-post{font-size: 2vmin}
-    .resume-card-display{padding: 20px}
-    .job-post{font-size: 2vmin}
-    .study-post{font-size: 2vmin}
+    .navbar{width: 700px;
+        grid-template-columns: 1fr 1fr 1fr}
+    .home-display{padding: 40px;
+        font-size: 1rem}
+    .message{width:800px}
+    .project-display{padding: 20px;
+        font-size: 1rem}
+    .project-post{width: 900px}
+    .resume-card-display{padding: 20px;
+        font-size: 1rem}
+    .job-post{width: 900px}
+    .study-post{width: 900px}
 }
 @media (min-width: 768px) and (max-width: 1024px){
-    .headShot{width: 40vmin}
+    .headShot{width: 30vmin}
     .bottom-text{
-        bottom: 2%;
-        font-size: 4.5vmin}
-    .navbar{width: 80vmin}
-    .home-display{padding: 20px}
-    .message{font-size: 3vmin}
-    .project-display{padding: 20px}
-    .project-post{font-size: 2vmin}
-    .resume-card-display{padding: 20px}
-    .job-post{font-size: 2vmin}
-    .study-post{font-size: 2vmin}
+        bottom: 11%;
+        font-size: 4vmin}
+    .navbar{width: 80vmin;
+        grid-template-columns: 1fr 1fr 1fr}
+    .home-display{padding: 40px;
+        font-size: 1.9vmin}
+    .project-display{padding: 20px;
+        font-size: 2vmin}
+    .resume-card-display{padding: 20px;
+        font-size: 2vmin}
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
-    .headShot{width: 40vmin}
+    .headShot{width: 30vmin}
     .bottom-text{
-        bottom: 2%;
-        font-size: 4.5vmin}
-    .navbar{width: 80vmin}
-    .home-display{padding: 20px}
-    .message{font-size: 3vmin}
-    .project-display{padding: 20px}
-    .project-post{font-size: 2vmin}
-    .resume-card-display{padding: 20px}
-    .job-post{font-size: 2vmin}
-    .study-post{font-size: 2vmin}
+        bottom: 11%;
+        font-size: 4vmin}
+    .navbar{width: 90vmin;
+        grid-template-columns: 1fr 1fr 1fr}
+    .home-display{padding: 40px;
+        font-size: 1.9vmin}
+    .project-display{padding: 40px;
+        font-size: 2vmin}
+    .resume-card-display{padding: 40px;
+        font-size: 2vmin}
 }
 @media (min-width: 481px) and (max-width: 767px){
-    .headShot{width: 50vmin}
+    .headShot{width: 40vmin}
     .bottom-text{
-        bottom: 10%;
-        font-size: 6vmin}
-    .navbar{width: 80vmin}
-    .home-display{padding: 20px}
-    .message{font-size: 4vmin}
-    .project-display{padding: 20px}
-    .project-post{font-size: 3vmin}
-    .resume-card-display{padding: 20px}
-    .job-post{font-size: 3vmin}
-    .study-post{font-size: 3vmin}
+        bottom: 11%;
+        font-size: 5vmin}
+    .navbar{width: 80vmin;
+        grid-template-columns: auto auto auto}
+    .home-display{padding: 30px;
+        font-size: 2.3vmin}
+    .project-display{padding: 20px;
+        font-size: 2.3vmin}
+    .resume-card-display{padding: 20px;
+        font-size: 2.3vmin}
 }
 @media (min-width: 320px) and (max-width: 480px){
     .headShot{width: 50vmin}
     .bottom-text{
         bottom: 10%;
         font-size: 6vmin}
-    .navbar{width: 80vmin}
-    .home-display{padding: 20px}
-    .message{font-size: 4vmin}
-    .project-display{padding: 20px}
-    .project-post{font-size: 3vmin}
-    .resume-card-display{padding: 20px}
-    .job-post{font-size: 3vmin}
-    .study-post{font-size: 3vmin}
+    .navbar{width: 80vmin;
+        grid-template-columns: auto auto auto}
+    .home-display{padding: 20px;
+        font-size: 3.4vmin}
+    .project-display{padding: 10px;
+        font-size: 3.3vmin}
+    .resume-card-display{padding: 10px;
+        font-size: 3.3vmin}
 }
