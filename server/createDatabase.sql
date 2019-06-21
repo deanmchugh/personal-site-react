@@ -47,3 +47,16 @@ lock table education write;
 insert into education values
 	('Queensland University of Technology','Batchelor of Information Technology','January 1, 2017','December 1, 2019','I am studying a major in Computer Science with minors in Intelligent systems and Mobile Applications. This course has exposed me to the new technologies available in current industry.\nThe use of scrum project development while completing team assignments allowed me to help the team by contributing with innovation and structured goal orientation','Structured sprint and task allocation to achieve product delivery{}Developed android and iOS applications{}Developed React websites{}Worked in small build teams');
 unlock tables;
+
+drop table if exists users;
+create table users (
+    username varchar(20) not null,
+    email varchar(50) not null,
+    password varchar(50) not null,
+    created_at datetime not null,
+    updated_at datetime not null
+);
+
+lock table users write;
+insert into users values
+    ('deanmchugh','dean.mchugh1988@gmail.com','password','June 1, 2019','June 1, 2019')
