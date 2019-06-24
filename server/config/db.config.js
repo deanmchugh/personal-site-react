@@ -1,6 +1,5 @@
 const Sequelize = require('sequelize')
 const env = require('./env')
-const db = {}
 
 const sequelize = new Sequelize(env.database, env.username, env.password, {
     host: env.host,
@@ -14,12 +13,13 @@ const sequelize = new Sequelize(env.database, env.username, env.password, {
     }
 })
 
+const db = {}
 db.sequelize = sequelize
 db.Sequelize = sequelize
 
-db.education = require('../models/education')(sequelize, Sequelize)
-db.employment = require('../models/employment')(sequelize, Sequelize)
-db.project = require('../models/project')(sequelize, Sequelize)
-db.user = require('../models/user')(sequelize, Sequelize)
+db.education = require('../models/education.model')(sequelize, Sequelize)
+db.employment = require('../models/employment.model')(sequelize, Sequelize)
+db.project = require('../models/project.model')(sequelize, Sequelize)
+db.user = require('../models/user.model')(sequelize, Sequelize)
 
 module.exports = db
