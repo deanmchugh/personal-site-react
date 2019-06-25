@@ -1,4 +1,6 @@
 const db = require('../config/db.config')
+const jwt = require('jsonwebtoken')
+const bcrypt = require('bcrypt')
 const User = db.user
 
 exports.create = (req, res) => {

@@ -1,8 +1,8 @@
 const env = {
     database: 'my_data',
-    username: 'user',
+    username: 'root',
     password: 'password',
-    host: 'localhost',
+    host: 'localhost:3306',
     dialect: 'mysql',
     pool: {
         max: 5,
