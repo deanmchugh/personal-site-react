@@ -2,16 +2,16 @@ drop database if exists my_data;
 create database my_data;
 use my_data;
 
-drop table if exists projects;
-create table projects (
+drop table if exists project;
+create table project (
 	title varchar(50) not null,
     language varchar(50) not null,
     repository varchar(100) not null,
     description varchar(500) not null
 );
 
-lock table projects write;
-insert into projects (title, language, repository, description) values 
+lock table project write;
+insert into project values 
 	('Personal Website','Javascript & React','https://github.com/deanmchugh/personal-site-react','I developed this website to build my skills in Javascript and React. The setup was bootstrapped with Create React App. I found the implementation of functionality through React very intuitive to learn, making it easy to build a basic website. Through this project, i have a better understanding of npm, node and git'),
     ('Personal Website','HTML & CSS','https://github.com/deanmchugh/siteDeanMcHugh','I developed this website to build my skills in HTML and CSS. The experience was enjoyable to see how CSS styling can manipulate the HTML into an astatically pleasing and easy to use website. The secondary benefit is the ability to show my skills in this area'),
     ('Inventory Manager','Java','https://github.com/deanmchugh/inventoryManager','A project produced in the process of completing a software development coarse. This java project was an exercize in object orientated coding. This code takes a cvs file of sales and updates the inventory and store money level. After the amount of inventory decreases below a threshold it automatically creates a itinerary for a delivery truck');
@@ -48,15 +48,13 @@ insert into education values
 	('Queensland University of Technology','Batchelor of Information Technology','2017-1-1','2019-12-1','I am studying a major in Computer Science with minors in Intelligent systems and Mobile Applications. This course has exposed me to the new technologies available in current industry.\nThe use of scrum project development while completing team assignments allowed me to help the team by contributing with innovation and structured goal orientation','Structured sprint and task allocation to achieve product delivery{}Developed android and iOS applications{}Developed React websites{}Worked in small build teams');
 unlock tables;
 
-drop table if exists users;
-create table users (
+drop table if exists user;
+create table user (
     username varchar(20) not null,
     email varchar(50) not null,
-    password varchar(50) not null,
-    created_at datetime not null,
-    updated_at datetime not null
+    password varchar(50) not null
 );
 
-lock table users write;
-insert into users values
-    ('deanmchugh','dean.mchugh1988@gmail.com','password','2019-1-1','2019-1-1')
+lock table user write;
+insert into user values
+    ('deanmchugh','dean.mchugh1988@gmail.com','password')
