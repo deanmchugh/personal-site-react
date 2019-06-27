@@ -1,10 +1,13 @@
 .resume-display{
-    padding-top: 20px;
     text-align: center;
     background-color: linen;
 }
 .resume-card-display{
     text-align: left;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 80%;
+    margin: auto;
 }
 .job-title{
     grid-area: job-title;

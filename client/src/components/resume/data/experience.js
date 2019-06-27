@@ -1,6 +1,18 @@
 export const experienceData = [
     {
         id: 1,
+        title: 'Consultant',
+        company: 'Redland City Council',
+        timePeriod: 'Jan 2019 - Present',
+        description: 'I am currently part of a team tasked with implementing IoT technology to facilitate smart parking for the Redlands council business. In this role, we have worked through identifying potential problems of choosing the correct hardware and building the infrastructure for collection and processing the sensor data. \nI personally spearheaded the processing and display of the data in a user-friendly dashboard for consumption by the business and the Redlands local population. \nThis role has allowed me to build my skills in hardware and software implementation as well as communication skills in a professional environment.',
+        skills: [
+            'Build front end website with modern frameworks',
+            'Manipulate data into actionable displays',
+            'Professional communication'
+        ]
+    },
+    {
+        id: 2,
         title: 'Electrical Meter Reader',
         company: 'Spotless Group',
         timePeriod: 'Jan 2017 - Present',
@@ -12,7 +24,7 @@ export const experienceData = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: 'Bombardier',
         company: 'Australian Army',
         timePeriod: 'Dec 2009 - Dec 2016',
