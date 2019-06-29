@@ -21,8 +21,14 @@
     grid-area: job-time;
     color: red;
 }
-.job-description{
+.job-description-hidden{
     grid-area: job-description;
+    display: none;
+    transition: 2s;
+}
+.job-description-show{
+    grid-area: job-description;
+    transition: 2s;
 }
 .job-skills{
     grid-area: job-skills;
@@ -34,11 +40,10 @@
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
     grid-template-areas:
-        'job-title job-description'
-        'company job-description'
-        'job-time job-description'
-        ' . job-description'
-        ' . job-skills';
+        'job-title job-skills'
+        'company job-skills'
+        'job-time job-skills'
+        'job-description job-description';
 }
 
 .study-school{
