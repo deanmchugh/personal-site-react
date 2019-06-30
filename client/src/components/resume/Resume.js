@@ -7,7 +7,7 @@ import './model/resumePost.css'
 export default class Resume extends Component {
   render() {
     const experienceComponent = experienceData.map(work =>
-      <JobPost key={work.id} 
+      <JobPost  key={work.id} 
         title={work.title} 
         company={work.company}
         timePeriod={work.timePeriod} 
@@ -17,7 +17,7 @@ export default class Resume extends Component {
           <ul><li>{skillList}</li></ul>)}/>)
     
     const educationComponent = educationData.map(study =>
-      <StudyPost key={study.id} 
+      <StudyPost  key={study.id} 
         school={study.school} 
         degree={study.degree}
         timePeriod={study.timePeriod} 

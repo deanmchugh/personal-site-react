@@ -8,7 +8,8 @@
     border-radius: 30px;
     max-width: 80%;
     margin: auto;
-    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px grey;
 }
 .job-title{
     grid-area: job-title;
@@ -24,11 +25,10 @@
 .job-description-hidden{
     grid-area: job-description;
     display: none;
-    transition: 2s;
 }
 .job-description-show{
     grid-area: job-description;
-    transition: 2s;
+    padding-top: 15px;
 }
 .job-skills{
     grid-area: job-skills;
