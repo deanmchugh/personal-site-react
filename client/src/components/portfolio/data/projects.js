@@ -9,7 +9,8 @@ const projectData = [
             unobtrusive manner to emphasize the art. To increase load speed I 
             generated a small and large image format to be shown in the gallery and 
             popup window respectively`,
-        repository: 'https://github.com/deanmchugh/gordon-site-react'
+        repository: 'https://github.com/deanmchugh/gordon-site-react',
+        url: 'http://www.lisagordonart.com'
     },
     {
         id: 2,

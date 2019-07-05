@@ -8,10 +8,9 @@ export default class Project extends Component {
     const projectComponent = projects.map(project =>
       <ProjectPost key={project.id} title={project.title}
       language={project.language} description={project.description}
-      repository={project.repository}/>)
+      repository={project.repository} url={project.url}/>)
 
     return (
-      //the body of the protfolio// 
       <body className='portfolio-display'>
         {projectComponent}
       </body>

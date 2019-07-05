@@ -12,6 +12,7 @@ export default class Contacts extends Component {
         <div className='contacts-display'>
           <h2>CONTACTS</h2>
           <h4>PHONE: 0457998366</h4>
+          <h4>EMAIL: dean.mchugh1988@gmail.com</h4>
           <a href="mailto:dean.mchugh1988@gmail.com">
               <img src={EmailIcon} alt="email address" /></a>
           <a href="https://www.linkedin.com/in/dean-mchugh-21a983113" target="blank">
