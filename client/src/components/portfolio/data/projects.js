@@ -9,6 +9,11 @@ const projectData = [
             unobtrusive manner to emphasize the art. To increase load speed I 
             generated a small and large image format to be shown in the gallery and 
             popup window respectively`,
+        skills: [
+            'Implemented a gallery component',
+            'Implemented a collapsing navigation bar',
+            'Reactive web design'
+        ],
         repository: 'https://github.com/deanmchugh/gordon-site-react',
         url: 'http://www.lisagordonart.com'
     },
@@ -21,6 +26,11 @@ const projectData = [
             I found the implementation of functionality through React very intuitive 
             to learn, making it easy to build a basic website. Through this project, 
             i have a better understanding of npm, node and git`,
+        skills: [
+            'Implementing a website using the React framework',
+            'Understanding of distributed version-control systems (Git)',
+            'Clean website design'
+        ],
         repository: 'https://github.com/deanmchugh/personal-site-react'
     },
     {
@@ -32,6 +42,11 @@ const projectData = [
             CSS styling can manipulate the HTML into an astatically 
             pleasing and easy to use website. The secondary benefit 
             is the ability to show my skills in this area.`,
+        skills: [
+            'Implementing a website using HTML and CSS',
+            'Built fundamentals of web development',
+            'Deploying to a shared server'
+        ],
         repository: 'https://github.com/deanmchugh/JSsite'
     },
     {
@@ -45,6 +60,11 @@ const projectData = [
             money level. After the amount of inventory decreases below 
             a threshold it automatically creates a itinerary for a 
             delivery truck.`,
+        skills: [
+            'Build an understanding of Object orientated programming',
+            'Implement inventory management system',
+            'Implement UI for inventory display and resupply'
+        ],
         repository: 'https://github.com/deanmchugh/inventoryManager'
     }
 ]

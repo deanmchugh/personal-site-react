@@ -1,0 +1,14 @@
+.resume-display{
+    text-align: center;
+    background-color: linen;
+    padding: 15px;
+}
+.resume-card-display{
+    text-align: left;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px grey;
+}

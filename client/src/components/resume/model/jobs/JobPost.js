@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './resumePost.css'
+import './job.css'
 
 export default class JobPost extends Component {
   constructor(){

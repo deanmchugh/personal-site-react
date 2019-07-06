@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import JobPost from './model/JobPost'
-import StudyPost from './model/StudyPost'
+import JobPost from './model/jobs/JobPost'
+import StudyPost from './model/study/StudyPost'
 import {experienceData,educationData} from './data/experience'
-import './model/resumePost.css'
+import './resume.css'
 
 export default class Resume extends Component {
   render() {
