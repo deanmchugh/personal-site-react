@@ -3,6 +3,9 @@
     background-color: linen;
     padding: 15px;
 }
+.resume-heading{
+    padding-bottom: 15px;
+}
 .resume-card-display{
     text-align: left;
     background-color: white;

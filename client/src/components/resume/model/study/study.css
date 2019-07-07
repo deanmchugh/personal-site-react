@@ -1,12 +1,11 @@
-.study-school{
-    grid-area: school;
+.study-stamp{
+    grid-area: study-stamp;
+    line-height: 150%;
 }
 .study-degree{
-    grid-area: degree;
     color: darkslateblue;
 }
 .study-timePeriod{
-    grid-area: study-time;
     color: red;
 }
 .study-description-hidden{
@@ -27,8 +26,6 @@
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
     grid-template-areas:
-        'school study-skills'
-        'degree study-skills'
-        'study-time study-skills'
+        'study-stamp study-skills'
         'study-description study-description';
 }

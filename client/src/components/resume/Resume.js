@@ -28,9 +28,9 @@ export default class Resume extends Component {
 
     return (
       <body className='resume-display'>
-        <h2>Employment</h2>
+        <h2 className='resume-heading'>Employment</h2>
         {experienceComponent}
-        <h2>Education</h2>
+        <h2 className='resume-heading'>Education</h2>
         {educationComponent}
       </body>
     )
