@@ -15,7 +15,7 @@ const projectData = [
             'Reactive web design'
         ],
         repository: 'https://github.com/deanmchugh/gordon-site-react',
-        url: 'http://www.lisagordonart.com'
+        url: 'https://www.lisagordonart.com'
     },
     {
         id: 2,

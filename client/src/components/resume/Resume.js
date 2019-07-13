@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import JobPost from './model/jobs/JobPost'
-import StudyPost from './model/study/StudyPost'
+import ItemCard from '../models/ItemCard'
 import {experienceData,educationData} from './data/experience'
 import './resume.css'
 
 export default class Resume extends Component {
   render() {
     const experienceComponent = experienceData.map(work =>
-      <JobPost  key={work.id} 
+      <ItemCard  key={work.id} 
         title={work.title} 
         company={work.company}
         timePeriod={work.timePeriod} 
@@ -17,7 +16,7 @@ export default class Resume extends Component {
           <ul><li>{skillList}</li></ul>)}/>)
     
     const educationComponent = educationData.map(study =>
-      <StudyPost  key={study.id} 
+      <ItemCard  key={study.id} 
         school={study.school} 
         degree={study.degree}
         timePeriod={study.timePeriod} 

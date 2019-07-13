@@ -1,3 +1,24 @@
+.card-stamp{
+    grid-area: stamp;
+    line-height: 150%;
+}
+.card-title-2{
+    color: darkslateblue;
+}
+.card-title-3{
+    color: red;
+}
+.description-hidden{
+    grid-area: description;
+    display: none;
+}
+.description-show{
+    grid-area: description;
+    padding-top: 15px;
+}
+.card-skills{
+    grid-area: skills;
+}
 .card-display{
     text-align: left;
     background-color: white;
@@ -6,31 +27,7 @@
     margin: auto;
     margin-bottom: 20px;
     box-shadow: 5px 5px 5px grey;
-}
-.card-stamp{
-    grid-area: stamp;
-    line-height: 150%;
-}
-.sub-title-1{
-    color: darkslateblue;
-}
-.sub-title-2{
-    color: red;
-}
-.job-description-hidden{
-    grid-area: job-description;
-    display: none;
-}
-.job-description-show{
-    grid-area: job-description;
-    padding-top: 15px;
-}
-.job-skills{
-    grid-area: job-skills;
-}
-.job-post{
     overflow: hidden;
-    margin: auto;
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-areas:
