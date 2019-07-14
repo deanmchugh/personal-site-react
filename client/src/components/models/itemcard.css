@@ -1,6 +1,6 @@
 .card-stamp{
     grid-area: stamp;
-    line-height: 150%;
+    line-height: 140%;
 }
 .card-title-2{
     color: darkslateblue;
@@ -8,24 +8,18 @@
 .card-title-3{
     color: red;
 }
-.description-hidden{
-    grid-area: description;
-    display: none;
-}
-.description-show{
-    grid-area: description;
-    padding-top: 15px;
-}
 .card-skills{
     grid-area: skills;
 }
 .card-display{
+    z-index: 1;
+    position: relative;
     text-align: left;
     background-color: white;
     border-radius: 30px;
     max-width: 80%;
     margin: auto;
-    margin-bottom: 20px;
+    padding: 20px;
     box-shadow: 5px 5px 5px grey;
     overflow: hidden;
     display: grid;
@@ -33,4 +27,24 @@
     grid-template-areas:
         'stamp skills'
         'description description';
+}
+
+.card-drawer{
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 5px 5px 5px grey;
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.description-hidden{
+    grid-area: description;
+    display: none;
+}
+.description-show{
+    grid-area: description;
 }
