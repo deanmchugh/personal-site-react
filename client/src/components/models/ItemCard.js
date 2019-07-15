@@ -5,14 +5,21 @@ export default class StudyPost extends Component {
   constructor(){
     super()
     this.state = {
-      hover: false
+      show: false
     }
   }
   hoverOn = () => {
-    this.setState({hover: true})
+    this.setState({show: true})
   }
   hoverOff = () => {
-    this.setState({hover: false})
+    this.setState({show: false})
+  }
+  onClick = () => {
+      if (this.state.show === false) {
+        this.setState({show: true})
+      } else {
+        this.setState({show:false})
+      }
   }
   render() {
     return (
@@ -32,9 +39,11 @@ export default class StudyPost extends Component {
                 </div>
                 <p className='card-skills' style={{display: !this.props.skills && "none"}}>Skills: {this.props.skills}</p>
             </div>
-            <div className='card-drawer'>
-                <p className={this.state.hover ? 'description-show' : 'description-hidden'}
+            <div className='card-drawer'
+                onClick={this.onClick}>
+                <p className={this.state.show ? 'description-show' : 'description-hidden'}
                         style={{display: !this.props.description && "none"}}>{this.props.description}</p>
+                <h4 onClick={this.onClick} className={this.state.show ? 'card-drawer-prompt-hidden' : 'card-drawer-prompt-show'}>Find Out More</h4>
             </div>
         </div>
     )

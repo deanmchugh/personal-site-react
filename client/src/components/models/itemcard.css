@@ -20,7 +20,7 @@
     max-width: 80%;
     margin: auto;
     padding: 20px;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 10px black;
     overflow: hidden;
     display: grid;
     grid-template-columns: 30% 70%;
@@ -40,6 +40,13 @@
     margin-bottom: 20px;
     background-color: black;
     color: white;
+}
+.card-drawer-prompt-hidden{
+    text-align: center;
+    display: none;
+}
+.card-drawer-prompt-show{
+    text-align: center;
 }
 .description-hidden{
     grid-area: description;
