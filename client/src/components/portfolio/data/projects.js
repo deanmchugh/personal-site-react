@@ -5,7 +5,7 @@ const projectData = [
         language: 'Javascript & React',
         description: `As part of my professional development, I built this site 
             for a client who needed a way to display her artwork. The site makes 
-            use an image gallery to show all the artists work in a clean and 
+            use of an image gallery to show all the artists work in a clean and 
             unobtrusive manner to emphasize the art. To increase load speed I 
             generated a small and large image format to be shown in the gallery and 
             popup window respectively`,
