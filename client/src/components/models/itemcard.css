@@ -1,6 +1,5 @@
 .card-stamp{
     grid-area: stamp;
-    line-height: 140%;
 }
 .card-title-2{
     color: darkslateblue;
@@ -16,8 +15,7 @@
     position: relative;
     text-align: left;
     background-color: white;
-    border-radius: 30px;
-    max-width: 80%;
+    border-radius: 20px;
     margin: auto;
     padding: 20px;
     box-shadow: 5px 5px 10px black;

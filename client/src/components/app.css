@@ -6,9 +6,6 @@
 ::after{
     box-sizing: inherit;
 }
-html{
-    line-height: 23px;
-}
 body{
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
@@ -104,6 +101,5 @@ ul{
         font-size: 3.4vmin}
     .project-display{padding: 10px;
         font-size: 3.3vmin}
-    .resume-card-display{padding: 10px;
-        font-size: 3.3vmin}
+    .resume-display{font-size: 3vmin}
 }
