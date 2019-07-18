@@ -21,7 +21,7 @@
     box-shadow: 5px 5px 10px black;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 65%;
     grid-template-areas:
         'stamp skills'
         'description description';

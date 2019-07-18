@@ -27,7 +27,7 @@ button:hover{
     font-weight: bold;
 }
 ul{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 /*sizings*/
 @media (min-width: 1025px){
@@ -93,13 +93,12 @@ ul{
 @media (min-width: 320px) and (max-width: 480px){
     .headShot{width: 50vmin}
     .bottom-text{
-        bottom: 10%;
+        bottom: 1%;
         font-size: 6vmin}
     .navbar{width: 80vmin;
         grid-template-columns: auto auto auto}
     .home-display{padding: 20px;
         font-size: 3.4vmin}
-    .project-display{padding: 10px;
-        font-size: 3.3vmin}
+    .portfolio-display{font-size: 3vmin}
     .resume-display{font-size: 3vmin}
 }
