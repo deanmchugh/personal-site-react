@@ -35,70 +35,51 @@ ul{
     .bottom-text{
         bottom: 13%;
         font-size: 2.5rem}
-    .navbar{width: 700px;
-        grid-template-columns: 1fr 1fr 1fr}
-    .home-display{padding: 40px;
-        font-size: 1rem}
+    .navbar{width: 700px; grid-template-columns: 1fr 1fr 1fr}
+    .home-display{font-size: 1rem}
     .message{width:800px}
-    .project-display{padding: 20px;
-        font-size: 1rem}
-    .project-post{width: 900px}
-    .resume-card-display{padding: 20px;
-        font-size: 1rem}
+    .portfolio-post{width: 900px; font-size: 1rem}
+    .resume-display{font-size: 1rem}
     .job-post{width: 900px}
     .study-post{width: 900px}
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .headShot{width: 30vmin}
-    .bottom-text{
-        bottom: 11%;
-        font-size: 4vmin}
-    .navbar{width: 80vmin;
-        grid-template-columns: 1fr 1fr 1fr}
-    .home-display{padding: 40px;
-        font-size: 1.9vmin}
-    .project-display{padding: 20px;
-        font-size: 2vmin}
-    .resume-card-display{padding: 20px;
-        font-size: 2vmin}
+    .bottom-text{bottom: 1%; font-size: 4vmin}
+    .navbar{width: 80vmin; grid-template-columns: 1fr 1fr 1fr}
+    .home-display{font-size: 1.9vmin}
+    .portfolio-display{font-size: 2vmin}
+    .resume-display{font-size: 2vmin}
+    .card-display{width: 80vmin}
+    .card-drawer{width: 70vmin}
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
     .headShot{width: 30vmin}
-    .bottom-text{
-        bottom: 11%;
-        font-size: 4vmin}
-    .navbar{width: 90vmin;
-        grid-template-columns: 1fr 1fr 1fr}
-    .home-display{padding: 40px;
-        font-size: 1.9vmin}
-    .project-display{padding: 40px;
-        font-size: 2vmin}
-    .resume-card-display{padding: 40px;
-        font-size: 2vmin}
+    .bottom-text{bottom: 1%; font-size: 4vmin}
+    .navbar{width: 90vmin; grid-template-columns: 1fr 1fr 1fr}
+    .home-display{font-size: 1.9vmin}
+    .portfolio-display{font-size: 2vmin}
+    .resume-display{font-size: 2vmin}
+    .card-display{width: 80vmin}
+    .card-drawer{width: 70vmin}
 }
 @media (min-width: 481px) and (max-width: 767px){
-    .headShot{width: 40vmin}
-    .bottom-text{
-        bottom: 11%;
-        font-size: 5vmin}
-    .navbar{width: 80vmin;
-        grid-template-columns: auto auto auto}
-    .home-display{padding: 30px;
-        font-size: 2.3vmin}
-    .project-display{padding: 20px;
-        font-size: 2.3vmin}
-    .resume-card-display{padding: 20px;
-        font-size: 2.3vmin}
+    .headShot{width: 50vmin}
+    .bottom-text{bottom: 1%; font-size: 6vmin}
+    .navbar{width: 80vmin; grid-template-columns: auto auto auto}
+    .home-display{font-size: 2.3vmin}
+    .portfolio-display{font-size: 3vmin}
+    .resume-display{font-size: 3vmin}
+    .card-display{width: 80vmin}
+    .card-drawer{width: 70vmin}
 }
 @media (min-width: 320px) and (max-width: 480px){
     .headShot{width: 50vmin}
-    .bottom-text{
-        bottom: 1%;
-        font-size: 6vmin}
-    .navbar{width: 80vmin;
-        grid-template-columns: auto auto auto}
-    .home-display{padding: 20px;
-        font-size: 3.4vmin}
+    .bottom-text{bottom: 1%; font-size: 6vmin}
+    .navbar{width: 80vmin; grid-template-columns: auto auto auto}
+    .home-display{font-size: 3.4vmin}
     .portfolio-display{font-size: 3vmin}
     .resume-display{font-size: 3vmin}
+    .card-display{width: 80vmin}
+    .card-drawer{width: 70vmin}
 }

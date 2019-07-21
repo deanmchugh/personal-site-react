@@ -22,6 +22,7 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: 35% 65%;
+    grid-gap: 5px;
     grid-template-areas:
         'stamp skills'
         'description description';
@@ -33,7 +34,6 @@
     text-align: left;
     border-radius: 0 0 30px 30px;
     box-shadow: 5px 5px 5px grey;
-    max-width: 75%;
     margin: auto;
     margin-bottom: 20px;
     background-color: black;
