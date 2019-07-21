@@ -32,16 +32,14 @@ ul{
 /*sizings*/
 @media (min-width: 1025px){
     .headShot{max-width: 100%}
-    .bottom-text{
-        bottom: 13%;
-        font-size: 2.5rem}
+    .bottom-text{bottom: 1%; font-size: 2.5rem}
     .navbar{width: 700px; grid-template-columns: 1fr 1fr 1fr}
     .home-display{font-size: 1rem}
     .message{width:800px}
-    .portfolio-post{width: 900px; font-size: 1rem}
-    .resume-display{font-size: 1rem}
-    .job-post{width: 900px}
-    .study-post{width: 900px}
+    .portfolio-display{font-size: 1.2rem}
+    .resume-display{font-size: 1.2rem}
+    .card-display{width: 800px}
+    .card-drawer{width: 75vmin}
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .headShot{width: 30vmin}
@@ -64,8 +62,8 @@ ul{
     .card-drawer{width: 70vmin}
 }
 @media (min-width: 481px) and (max-width: 767px){
-    .headShot{width: 50vmin}
-    .bottom-text{bottom: 1%; font-size: 6vmin}
+    .headShot{width: 30vmin}
+    .bottom-text{bottom: 1%; font-size: 4vmin}
     .navbar{width: 80vmin; grid-template-columns: auto auto auto}
     .home-display{font-size: 2.3vmin}
     .portfolio-display{font-size: 3vmin}
