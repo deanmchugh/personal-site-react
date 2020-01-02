@@ -1,0 +1,16 @@
+{
+  "short_name": "Dean McHugh",
+  "name": "This app is for a display of the skills and history of Dean McHugh",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "This app is for a display of the skills and history of Dean McHugh",
+  "icon":[
+    {
+      "src":"img/headShot.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    }
+  ]
+}

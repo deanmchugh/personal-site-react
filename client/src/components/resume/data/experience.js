@@ -3,7 +3,7 @@ export const experienceData = [
         id: 1,
         title: 'Consultant',
         company: 'Redland City Council',
-        timePeriod: 'Jan 2019 - Present',
+        timePeriod: 'Jan 2019 - Dec 2019',
         description: 'I am currently part of a team tasked with implementing IoT technology to facilitate smart parking for the Redlands council business. In this role, we have worked through identifying potential problems of choosing the correct hardware and building the infrastructure for collection and processing the sensor data. \nI personally spearheaded the processing and display of the data in a user-friendly dashboard for consumption by the business and the Redlands local population. \nThis role has allowed me to build my skills in hardware and software implementation as well as communication skills in a professional environment.',
         skills: [
             'Build front end website with modern frameworks',
@@ -46,8 +46,8 @@ export const educationData = [
         description: 'I am studying a major in Computer Science with minors in Intelligent systems and Mobile Applications. This course has exposed me to the new technologies available in current industry. \nThe use of scrum project development while completing team assignments allowed me to help the team by contributing with innovation and structured goal orientation.',
         skills: [
             'Structured sprint and task allocation to achieve product delivery',
+            'Developed javascript full stack web applications',
             'Developed android and iOS applications',
-            'Developed React websites',
             'Worked in small build teams'
         ]
     }

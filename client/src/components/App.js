@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {Switch, Route} from 'react-router-dom'
 import './app.css'
-import Blog from './blog/Blog'
 import Contacts from './contacts/Contacts'
 import Default from './Default'
 import Home from './home/Home'
@@ -16,7 +15,6 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route path='/blog' component={Blog} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/resume' component={Resume} />
           <Route component={Default} />
